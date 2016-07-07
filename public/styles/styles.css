@@ -1,0 +1,19 @@
+body {
+  color: #333;
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+header {
+  background: #eee;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
