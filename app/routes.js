@@ -5,7 +5,7 @@ import App from './containers/App'
 import Index from './containers/Index'
 
 export default (store) => {
-  return <Route path='/' component={App}>
+  return <Route path='*' component={App}>
     <IndexRoute component={Index} />
   </Route>
 }
